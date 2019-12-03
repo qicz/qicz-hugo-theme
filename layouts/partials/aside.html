@@ -1,31 +1,37 @@
 <aside>
-    <ul>
-        <li>
-            <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-        </li>
-        {{ if .Params.categories }}
-        <li>
-            {{ T "categories" }}
-            <em>
-                {{ range $i, $c := .Params.categories }}
-                    {{ if $i }}, {{ end }}
-                    <a href="{{ relLangURL ( printf "categories/%s" ( $c | urlize ) ) }}">{{ $c }}</a>
-                {{ end }}
-            </em>
-        </li>
-        {{ end }}
-
-        {{ if .Params.tags }}
-        <li>
-            <em>
-                {{ range $i, $t := .Params.tags }}
-                    {{ if $i }}, {{ end }}
-                    <a href="{{ relLangURL ( printf "tags/%s" ( $t | urlize ) ) }}">#{{ $t }}</a>
-                {{ end }}
-            </em>
-        </li>
-        {{ end }}
-
-        <li>{{ T "readingTime" .ReadingTime }}</li>
-    </ul>
+    <!-- date -->
+    <span class="fa fa-calendar"><time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">Publish:{{ .Date.Format "Jan 2, 2006" }}</time>
+    &nbsp; | &nbsp; 
+    <!-- updated date --><time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">LastMod: {{ .Lastmod.Format "Jan 2, 2006" }}</time></span>
+    &nbsp; | &nbsp; 
+    {{ if .Params.categories }}
+    <span class="fa fa-book">
+        {{ T "categories" }}
+        <em>
+            {{ range $i, $c := .Params.categories }}
+                {{ if $i }}, {{ end }}
+                <a href="{{ relLangURL ( printf "categories/%s" ( $c | urlize ) ) }}">{{ $c }}</a>
+            {{ end }}
+        </em>
+    </span>
+    {{ end }}
+    &nbsp; | &nbsp; 
+     {{ if .Params.tags }}
+    <span class="fa fa-tags">
+        <em>
+            {{ range $i, $t := .Params.tags }}
+                {{ if $i }}, {{ end }}
+                <a href="{{ relLangURL ( printf "tags/%s" ( $t | urlize ) ) }}">#{{ $t }}</a>
+            {{ end }}
+        </em>
+    </span>
+    {{ end }}
+    &nbsp; | &nbsp; 
+    <span class="fa fa-plane">{{ T "readingTime" .ReadingTime }} </span>
 </aside>
+<!-- toc Jobsz-->
+{{ if and (gt .WordCount 400 ) (.Params.toc) }}
+<aside>
+    {{  .TableOfContents }}
+</aside>
+{{ end }}
