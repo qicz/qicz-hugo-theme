@@ -1,0 +1,12 @@
+diff --git a/layouts/partials/footer.html b/layouts/partials/footer.html
+index 45e31e5..eb8aa96 100644
+--- a/layouts/partials/footer.html
++++ b/layouts/partials/footer.html
+@@ -2,6 +2,7 @@
+     <footer>
+         <h6>{{ .Site.Copyright | markdownify }} |
+             {{ T "rendered" }} <a href="https://gohugo.io" title="Hugo">Hugo</a> 
++            | Theme <a href="https://github.com/JobsZCQ/hugo-kiera">hugo-kiera(Jobsz updated)</a>
+             | <span id="busuanzi_container_site_pv">This site has <span id="busuanzi_value_site_pv"></span> views</span> and <span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv"></span> visitors</span> 
+             | <a href="{{.Site.BaseURL}}index.xml">{{ T "subscribe" }} </a></h6>
+     </footer>
