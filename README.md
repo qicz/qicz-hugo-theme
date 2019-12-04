@@ -1,4 +1,4 @@
-# Kiera Theme for Hugo
+# Jobsz Hugo Theme (based on Kiera Theme)
 
 ### fixed seo features
 

@@ -1,17 +1,37 @@
-name = "Kiera"
-license = "MIT"
-licenselink = "https://github.com/funkydan2/hugo-kiera/blob/master/LICENSE.md"
-description = "Hugo Theme for creative and technical writing"
-homepage = "http://github.com/avianto/hugo-kiera"
-tags = ["blog","minimal","responsive"]
-features = ["blog","disqus","google-analytics","font-awesome"]
-min_version = "0.55.0"
+baseurl = "https://rd.zhucongqi.cn"
+title = "Jobsz's R&D Notes"
+copyright = "Copyright &copy; 2019 - Jobsz"
+#LanguageCode = "cn"
+#DefaultContentLanguage = "cn"
+canonifyurls = true
+theme = "hugo-kiera"
+paginate = 3
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+#pygmentsCodefencesGuessSyntax = false
+pygmentsStyle = "dracula"
+pygmentsOptions = ['linenos']
+#pygmentsUseClasses=true
 
+# Note: to disable a social network icon delete or comment out the corresponding line
 [author]
-  name = "Daniel Saunders"
-  homepage = "https://github.com/funkydan2"
+    name = "Jobsz"
+    github = "JobsZCQ"
+    repo = "rd-notes" # for comments
+    weibo = "powerlinux"
+    email = "zcq#zhucongqi.cn"
+    douban = "podevor"
+    #qq = "1326509178"
 
-[original]
-  name = "b. avianto"
-  homepage = "https://avianto.com"
-  repo = "https://github.com/avianto/hugo-kiera"
+[params]
+    tagline = "The creative thinking and writing about technology."
+    description = "Jobzs's creative thinking and writing about technology."
+    #images = [""] #This is used for opengraph/twitter cards.
+    customCSS = []  #Optional Customised CSS
+    favicon = "/favicon.png"
+
+[frontmatter]
+date = [":filename", ":default"]
+[permalinks]
+posts = "/:year-:month-:day-:filename"
