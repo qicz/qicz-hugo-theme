@@ -1,0 +1,21 @@
+[categories]
+other = "类别:"
+
+[readingTime]
+one = "阅读约1分钟"
+other = "阅读约{{.Count}}分钟"
+
+[readMore]
+other = "阅读更多…"
+
+[draft]
+other = "草稿"
+
+[subscribe]
+other = "订阅"
+
+[rendered]
+other = "Rendered by"
+
+[comments]
+other = "添加或查看评论"
