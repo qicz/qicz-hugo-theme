@@ -1,6 +1,6 @@
-baseurl = "https://rd.zhucongqi.cn"
-title = "Jobsz's R&D Notes"
-copyright = "Copyright &copy; 2019 - Jobsz"
+baseurl = "https://tech.zhucongqi.cn"
+title = "Jobsz's Tech Learning"
+copyright = "Copyright &copy; 2012 - "#copyright prefix , html copyright = copyright + footer.html.copyright; footer.html.copyright= "Date.year" + author'
 #LanguageCode = "cn"
 #DefaultContentLanguage = "cn"
 canonifyurls = true

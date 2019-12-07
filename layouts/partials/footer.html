@@ -1,6 +1,6 @@
 </main>
     <footer>
-        <h6>{{ .Site.Copyright | markdownify }} |
+        <h6>{{ .Site.Copyright | markdownify }} {{ .Date.Format "2006" }} {{ .Site.Author.name }} |
             {{ T "rendered" }} <a href="https://gohugo.io" title="Hugo">Hugo</a> 
             | Theme <a href="https://github.com/JobsZCQ/jobsz-hugo-theme">jobsz-hugo-theme</a>
             | <span id="busuanzi_container_site_pv">This site has <span id="busuanzi_value_site_pv"></span> views</span> and <span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv"></span> visitors</span> 
