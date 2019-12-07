@@ -13,6 +13,7 @@ pygmentsCodeFences = true
 pygmentsStyle = "dracula"
 pygmentsOptions = ['linenos']
 #pygmentsUseClasses=true
+enableRobotsTXT=true
 
 # Note: to disable a social network icon delete or comment out the corresponding line
 [author]

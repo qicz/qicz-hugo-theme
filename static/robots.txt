@@ -1,7 +1,0 @@
-User-agent: *
-
-{{range .Pages}}
-Disallow: {{.RelPermalink}}
-{{end}}
-
-Sitemap: {{ .Site.BaseURL }}sitemap.xml 
