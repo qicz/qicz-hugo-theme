@@ -35,4 +35,4 @@ enableRobotsTXT=true
 [frontmatter]
 date = [":filename", ":default"]
 [permalinks]
-posts = "/:year-:month-:day-:filename"
+posts = "/posts/:year-:month-:day-:filename"
