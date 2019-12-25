@@ -1,18 +1,18 @@
-baseurl = "https://tech.zhucongqi.cn"
-title = "Jobsz's Tech Learning"
+baseurl = "https://izcqi.com"
+title = "Jobsz's Thoughts HUB"
 copyright = "Copyright &copy; 2012 - "#copyright prefix , html copyright = copyright + footer.html.copyright; footer.html.copyright= "Date.year" + author'
 #LanguageCode = "cn"
 #DefaultContentLanguage = "cn"
 canonifyurls = true
-theme = "hugo-kiera"
-paginate = 3
+theme = "jobsz-hugo-theme"
+paginate = 10
 summaryLength = 30
 enableEmoji = true
 pygmentsCodeFences = true
-#pygmentsCodefencesGuessSyntax = false
+# pygmentsCodefencesGuessSyntax = false
 pygmentsStyle = "dracula"
 pygmentsOptions = ['linenos']
-#pygmentsUseClasses=true
+# pygmentsUseClasses=true
 enableRobotsTXT=true
 
 # Note: to disable a social network icon delete or comment out the corresponding line
