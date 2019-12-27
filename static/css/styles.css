@@ -279,14 +279,16 @@ width: 100%;
   background-color: #337ab7;
   color: #ffffff;
   border-radius: 0.2em;
-  padding: 0.2em;
+  padding: 0.1em;
+  margin: auto
 }
 
 .tags {
   background-color: #ff945c;
   color: #ffffff;
   border-radius: 0.2em;
-  padding: 0.2em;
+  padding: 0.1em;
+  margin: auto;
 }
 
 .meta-aside, #container main section#home ul li aside, #container main article aside {
