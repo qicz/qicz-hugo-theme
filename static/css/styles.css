@@ -16,6 +16,15 @@ time {
   font-family: "Ruda", sans-serif;
 }
 
+a {
+  color: #666666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #337ab7;/* Jobsz */
+}
+
 #container {
   margin: 0;
   padding: 0;
@@ -37,8 +46,23 @@ time {
   }
 }
 
+#container header-container {
+  margin-bottom: 1em;
+  width: 100%;
+  background-image: url("/images/bg.jpg"); 
+  background-size:100% 100%;
+  margin: auto;
+}
+
 #container header {
   margin-bottom: 1em;
+  margin: auto;
+  width: 80%;
+  color: #ffffff;/* Jobsz */
+}
+
+#container header a {
+  color: #ffffff;/* Jobsz */
 }
 
 #container header h1 {
@@ -47,6 +71,7 @@ time {
 
 #container header h1 a {
   color: #000000;
+  color: #ffffff;/* Jobsz */
 }
 
 #container header ul {
@@ -70,10 +95,14 @@ time {
   }
 }
 
+#container nav a {
+  color: #ffffff;/* Jobsz */
+}
+
 #container nav {
   border-bottom: solid 0.1px #cecece; /* Jobsz */
   padding-bottom: 1em; /* Jobsz */
-  font-family: "Ruda", sans-serif;
+  font-family: "Ruda", sans-serif; 
 }
 
 #container nav ul {
@@ -82,6 +111,8 @@ time {
   list-style: none;
   display: flex;
   justify-content: flex-end;
+  margin: auto;/* Jobsz */
+  width: 80%;/* Jobsz */
 }
 
 #container nav ul li {
@@ -89,7 +120,7 @@ time {
 }
 
 #container nav ul li a.active {
-  border-bottom: 0.5em solid #666666;
+  border-bottom: 0.5em solid #ffffff;/* Jobsz */
 }
 
 #container main {
@@ -114,7 +145,7 @@ time {
 }
 
 #container main section#home span {
-  color: #666666;
+  color: #909090;
 }
 
 #container main section#list ul {
@@ -147,7 +178,7 @@ time {
 }
 
 #container main article pre {
-  background-color: #ffffcc;
+  background-color: lightgray;/*Jobsz*/
   overflow-x: auto;
   padding: 0.8em;
   font-size: 1.0em; /*Jobsz*/
@@ -159,9 +190,11 @@ time {
 }
 
 #container main article p code {
-  padding: 0.2em;
-  background-color: #ffcccc;
+  padding: 0.1em;
+  background-color: lightgray;
   font-size: 0.9em;
+  border-radius: 0.3em;
+  color: #d31919;
 }
 
 #container main article p kbd {
@@ -254,11 +287,6 @@ width: 100%;
 .meta-aside ul li, #container main section#home ul li aside ul li, #container main article aside ul li  {
   margin: 0;
   padding: 0;
-}
-
-a {
-  color: #666666;
-  text-decoration: none;
 }
 
 .image, figure img, img {
