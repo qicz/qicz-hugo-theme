@@ -271,6 +271,24 @@ width: 100%;
  text-decoration: none;
 }
 
+#container aside a {
+  color: #ffffff;
+}
+
+.categories {
+  background-color: #337ab7;
+  color: #ffffff;
+  border-radius: 0.2em;
+  padding: 0.2em;
+}
+
+.tags {
+  background-color: #ff945c;
+  color: #ffffff;
+  border-radius: 0.2em;
+  padding: 0.2em;
+}
+
 .meta-aside, #container main section#home ul li aside, #container main article aside {
   margin: 0.5em 0;
   font-family: "Ruda", sans-serif;
