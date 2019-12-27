@@ -1,11 +1,10 @@
-# Jobsz Hugo Theme (based on Kiera Theme)
+# Qicz Hugo Theme (based on Kiera Theme)
 
 ### Update footer copyright logic
 
 - setting the copyright in config.toml file like this 
 
 > copyright = "Copyright &copy; 2012 - "#copyright prefix , html copyright = copyright + footer.html.copyright; footer.html.copyright= "Date.year" + author'
-
 
 ### Add .sh script
 
