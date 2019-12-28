@@ -1,6 +1,6 @@
 baseurl = "https://izcqi.com"
 title = "Qicz's Thoughts HUB"
-copyright = "Copyright &copy; 2012 - "#copyright prefix , html copyright = copyright + footer.html.copyright; footer.html.copyright= "Date.year" + author'
+copyright = "&copy; 2012 - "#copyright prefix , html copyright = copyright + footer.html.copyright; footer.html.copyright= "Date.year" + author'
 #LanguageCode = "cn"
 #DefaultContentLanguage = "cn"
 canonifyurls = true

@@ -103,6 +103,7 @@ a:hover {
   border-bottom: solid 0.1px #cecece; /* Jobsz */
   padding-bottom: 1em; /* Jobsz */
   font-family: "Ruda", sans-serif; 
+  margin-top: 2em;
 }
 
 #container nav ul {
@@ -148,6 +149,11 @@ a:hover {
   color: #909090;
 }
 
+#container main section#list h2,h3 {
+  /* color: #55cbc4; */
+  color: green;
+}
+
 #container main section#list ul {
   margin: 0;
   padding: 0;
@@ -156,7 +162,7 @@ a:hover {
 
 #container main section#list ul li {
   padding: 0.5em 0;
-  border-bottom: 1px solid #cecece;
+  border-bottom: 1px solid #55cbc4;
 }
 
 #container main section#list ul li time, #container main section#list ul li span.count {
