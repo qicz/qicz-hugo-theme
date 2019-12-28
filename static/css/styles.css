@@ -35,7 +35,7 @@ a:hover {
 }
 
 #container > * {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -439,16 +439,14 @@ table thead {
 }
 
 blockquote {
-  margin: 1em;
-  border-left: solid 0.1em #cecece;
-  padding: 0.5em 2em;
-  position: relative;
-  background-color: #efefef;
-  box-shadow: 0 -1px 0 #bbbbbb inset;
+  margin: auto;
+  border-left: solid 0.3em #55cbc4;
+  padding-left: 0.8em;
+  color: gray;
 }
 
 blockquote::before {
-  content: "\“";
+  content: "";
   font-size: 3em;
   font-family: "FontAwesome";
   color: rgba(192, 192, 192, 0.3);
