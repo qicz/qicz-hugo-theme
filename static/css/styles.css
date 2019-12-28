@@ -57,8 +57,12 @@ a:hover {
 #container header {
   margin-bottom: 1em;
   margin: auto;
-  width: 80%;
+  width: 60%;
   color: #ffffff;/* Jobsz */
+}
+
+#container header p em {
+  font-size: 1.2em;
 }
 
 #container header a {
@@ -113,7 +117,7 @@ a:hover {
   display: flex;
   justify-content: flex-end;
   margin: auto;/* Jobsz */
-  width: 80%;/* Jobsz */
+  width: 60%;/* Jobsz */
 }
 
 #container nav ul li {
