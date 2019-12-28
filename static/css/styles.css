@@ -191,8 +191,9 @@ a:hover {
   background-color: lightgray;/*Jobsz*/
   overflow-x: auto;
   padding: 0.8em;
-  font-size: 1.0em; /*Jobsz*/
-  box-shadow: 0 -1px 0 #bbbbbb inset;
+  font-size: 1em; /*Jobsz*/
+  box-shadow: 0 0.1em 0.1em green;
+  border-radius: 0.2em;
 }
 
 #container main article pre code {
@@ -200,7 +201,7 @@ a:hover {
 }
 
 #container main article p code {
-  padding: 0.1em;
+  padding: 0.2em;
   background-color: lightgray;
   font-size: 0.9em;
   border-radius: 0.3em;
