@@ -1,7 +1,7 @@
 </main>
     <footer>
         <h6>{{ .Site.Copyright | markdownify }} {{ .Date.Format "2006" }} {{ .Site.Author.name }}
-            - {{ .Site.Title }} (<a href="{{ relLangURL "/" }}"> {{ .Site.BaseURL }}</a>)
+            - {{ .Site.Title }} (<a href="{{ relLangURL "/" }}" title="{{ .Site.Title }}"> {{ .Site.BaseURL }}</a>)
             | {{ T "rendered" }} <a href="https://gohugo.io" title="Hugo" target="_blank">Hugo</a> 
             | Theme <a href="https://github.com/qicz/qicz-hugo-theme" title="qicz-hugo-theme" target="_blank">qicz-theme</a>
             | This site USES <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="This site USES CC BY-NC-SA 4.0" target="_blank">CC BY-NC-SA 4.0</a>
