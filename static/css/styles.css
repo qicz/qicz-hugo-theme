@@ -324,6 +324,11 @@ width: 100%;
   box-shadow: 0 3px 3px #bbbbbb;
 }
 
+img[src*="avatar"] {
+  width: 6em;
+  height: 6em;
+}
+
 .full-image, figure.full img, img[src*="full"] {
   width: 100%;
   box-shadow: 0 3px 3px #bbbbbb;

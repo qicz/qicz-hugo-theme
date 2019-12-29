@@ -1,5 +1,11 @@
 # Qicz Hugo Theme (based on Kiera Theme)
 
+### using img
+
+* full image ![](url#full), append `#ful`l to url.
+* mid image ![](url#mid), append `#mid` to url.
+* avatar image ![](url#avatar), append `#avatar` to url.
+
 ### Update footer copyright logic
 
 - setting the copyright in config.toml file like this 
