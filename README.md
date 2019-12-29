@@ -2,7 +2,7 @@
 
 ### using img
 
-* full image `![full image title](url#full)`, append `#ful`l to url.
+* full image `![full image title](url#full)`, append `#full` to url.
 * mid image `![mid image title](url#mid)`, append `#mid` to url.
 * avatar image `![avatar title](url#avatar)`, append `#avatar` to url.
 
