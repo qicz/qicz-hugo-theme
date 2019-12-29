@@ -1,6 +1,6 @@
 <aside>
     <!-- date -->
-    <span class="fa fa-calendar"><time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "Jan 2, 2006 15:04" }}</time>
+    <span class="fa fa-calendar"><time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}"> {{ .Date.Format "Jan 2, 2006 15:04" }}</time>
     {{ if .Params.categories }}
     <span class="fa fa-book">
         <em class="categories">
@@ -23,7 +23,7 @@
     </span>
     {{ end }}
     &nbsp; | &nbsp; 
-    <span class="fa fa-plane"><em>{{ T "readingTime" .ReadingTime }}</em> </span>
+    <span class="fa fa-plane"><em> {{ T "readingTime" .ReadingTime }}</em> </span>
 </aside>
 <!-- toc Jobsz-->
 {{ if and (gt .WordCount 400 ) (.Params.toc) }}

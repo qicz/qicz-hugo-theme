@@ -3,7 +3,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   font-family: "Roboto Slab", serif;
-  color: #333333;
+  color: #666666;
 }
 
 h1,
@@ -35,8 +35,8 @@ a:hover {
 }
 
 #container > * {
-  width: 60%;
-  margin: 0 auto;
+  width: 70%;
+  margin: auto;
 }
 
 @media only screen and (max-width: 800px) {
@@ -47,17 +47,16 @@ a:hover {
 }
 
 #container header-container {
-  margin-bottom: 1em;
+  margin: auto;
   width: 100%;
   background-image: url("/images/header-bg.jpg"); 
   background-size: 100% 100%;
-  margin: auto;
 }
 
 #container header {
   margin-bottom: 1em;
   margin: auto;
-  width: 60%;
+  width: 70%;
   color: #ffffff;/* Jobsz */
 }
 
@@ -111,13 +110,13 @@ a:hover {
 }
 
 #container nav ul {
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: 0em;
   list-style: none;
   display: flex;
   justify-content: flex-end;
   margin: auto;/* Jobsz */
-  width: 60%;/* Jobsz */
+  width: 70%;/* Jobsz */
 }
 
 #container nav ul li {
