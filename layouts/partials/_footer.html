@@ -1,0 +1,15 @@
+</main>
+    <footer>
+        <h6>{{ .Site.Copyright | markdownify }} {{ .Date.Format "2006" }} {{ .Site.Author.name }}
+            - {{ .Site.Title }} (<a href="{{ relLangURL "/" }}" title="{{ .Site.Title }}"> {{ .Site.BaseURL }}</a>)
+            | Theme <a href="https://github.com/qicz/qicz-hugo-theme" title="qicz-hugo-theme" target="_blank">qicz-theme</a>
+            | This site USES <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="This site USES CC BY-NC-SA 4.0" target="_blank">CC BY-NC-SA 4.0</a>
+            | <a href="{{.Site.BaseURL}}index.xml">{{ T "subscribe" }} </a></h6>
+    </footer>
+</div>
+{{ if .Site.GoogleAnalytics }}
+{{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
+</body>
+
+</html>
