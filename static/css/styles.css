@@ -152,7 +152,7 @@ a:hover {
   color: #909090;
 }
 
-#container main section#list h2,h3 {
+#container main section#list h1,h2,h3 {
   /* color: #55cbc4; */
   color: green;
 }
