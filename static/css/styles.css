@@ -16,18 +16,23 @@ time {
   font-family: "Ruda", sans-serif;
 }
 
-a {
+a { /* Qicz */
   color: #666666;
-  text-decoration: none;
+  text-decoration: none; 
 }
 
-p a {
+a:hover { /* Qicz */
+  color: #337ab7;
+}
+
+/* a in content */
+p a { /* Qicz */
   color: #666666;
   text-decoration: underline;
 }
 
-a:hover {
-  color: #ee2c0a;/* Qicz */
+p a:hover { /* Qicz */
+  color: #ee2c0a;
 }
 
 #container {
