@@ -18,11 +18,11 @@ time {
 
 a {
   color: #666666;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: #337ab7;/* Jobsz */
+  color: #ee2c0a;/* Qicz */
 }
 
 #container {
@@ -200,10 +200,6 @@ a:hover {
 }
 
 #container main article p code {
-  padding: 0.2em;
-  background-color: lightgray;
-  font-size: 0.9em;
-  border-radius: 0.3em;
   color: #d31919;
 }
 
@@ -289,7 +285,7 @@ width: 100%;
   background-color: #337ab7;
   color: #ffffff;
   border-radius: 0.2em;
-  padding: 0.1em;
+  padding: 0.2em;
   margin: auto
 }
 
@@ -305,7 +301,7 @@ width: 100%;
   margin: 0.5em 0;
   font-family: "Ruda", sans-serif;
   color: #909090;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .meta-aside ul, #container main section#home ul li aside ul, #container main article aside ul {
