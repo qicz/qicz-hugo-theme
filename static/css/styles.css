@@ -18,6 +18,11 @@ time {
 
 a {
   color: #666666;
+  text-decoration: none;
+}
+
+p a {
+  color: #666666;
   text-decoration: underline;
 }
 
