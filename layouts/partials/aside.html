@@ -26,9 +26,3 @@
     &nbsp; | &nbsp; 
     <span class="fa fa-plane"><em> {{ T "readingTime" .ReadingTime }}</em> </span>
 </aside>
-<!-- toc Jobsz-->
-{{ if and (gt .WordCount 400 ) (.Params.toc) }}
-<aside>
-    {{  .TableOfContents }}
-</aside>
-{{ end }}

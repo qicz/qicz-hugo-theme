@@ -67,7 +67,7 @@ p a:hover { /* Qicz */
   margin-bottom: 1em;
   margin: auto;
   width: 70%;
-  color: #ffffff;/* Jobsz */
+  color: #ffffff;/* Qicz */
 }
 
 #container header p em {
@@ -75,16 +75,16 @@ p a:hover { /* Qicz */
 }
 
 #container header a {
-  color: #ffffff;/* Jobsz */
+  color: #ffffff;/* Qicz */
 }
 
 #container header h1 {
-  font-size: 3.6rem; /* Jobsz */
+  font-size: 3.6rem; /* Qicz */
 }
 
 #container header h1 a {
   color: #000000;
-  color: #ffffff;/* Jobsz */
+  color: #ffffff;/* Qicz */
 }
 
 #container header ul {
@@ -109,14 +109,13 @@ p a:hover { /* Qicz */
 }
 
 #container nav a {
-  color: #ffffff;/* Jobsz */
+  color: #ffffff;/* Qicz */
 }
 
 #container nav {
-  border-bottom: solid 0.1px #cecece; /* Jobsz */
-  padding-bottom: 1em; /* Jobsz */
+  padding-bottom: 1em; /* Qicz */
   font-family: "Ruda", sans-serif; 
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 #container nav ul {
@@ -125,8 +124,8 @@ p a:hover { /* Qicz */
   list-style: none;
   display: flex;
   justify-content: flex-end;
-  margin: auto;/* Jobsz */
-  width: 70%;/* Jobsz */
+  margin: auto;/* Qicz */
+  width: 70%;/* Qicz */
 }
 
 #container nav ul li {
@@ -134,14 +133,37 @@ p a:hover { /* Qicz */
 }
 
 #container nav ul li a.active {
-  border-bottom: 0.5em solid #ffffff;/* Jobsz */
+  border-bottom: 0.5em solid #ffffff;/* Qicz */
 }
 
 #container main {
   flex: 1 0 0;
-  line-height: 1.2;/* Jobsz */
-  font-size: 1.2em;/* Jobsz */
+  line-height: 1.2;/* Qicz */
+  font-size: 1.2em;/* Qicz */
 }
+
+/* toc - start */
+#container main article nav {
+  margin-top: 1em;
+  padding: 0em;
+  margin-left: -18%;
+}
+
+#container main article nav ul {
+  list-style: "📎 ";
+  display: block;
+}
+
+#container main article nav a {
+  font-size: 0.9em;
+  color: lightslategray;
+  font-weight: bold;
+}
+
+#container main article nav a:hover {
+  color: #ee2c0a;
+}
+/* toc - end */
 
 #container main section#home ul {
   margin: 0;
@@ -197,10 +219,10 @@ p a:hover { /* Qicz */
 }
 
 #container main article pre {
-  background-color: lightgray;/*Jobsz*/
+  background-color: lightgray;/*Qicz*/
   overflow-x: auto;
   padding: 0.8em;
-  font-size: 1em; /*Jobsz*/
+  font-size: 1em; /*Qicz*/
   box-shadow: 0 0.1em 0.1em green;
   border-radius: 0.2em;
 }
